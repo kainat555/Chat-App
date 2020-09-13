@@ -1,0 +1,52 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+    background-image: url("images/wallpaper.jpg");
+    background-image: url("images/wallpaper2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Grandstander', cursive;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+h1
+{
+   font-family: 'Roboto', sans-serif;
+   /* background:linear-gradient(blue,aqua); */
+   color: blue;
+   font-weight: 700;
+   text-decoration: underline;
+   text-transform: uppercase;
+}
+#chat
+{
+  border: 2px solid black;
+  border: none;
+  outline: none;
+  width: 300px;
+  height: 300px;
+  overflow-y: scroll;
+}
+#text
+{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+#btn
+{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    /* width: 50%; */
+}
+#text , #btn:focus{
+    border: none;
+    outline: none;
+}
